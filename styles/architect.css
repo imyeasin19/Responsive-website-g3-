@@ -106,6 +106,31 @@ main>section{
 .feature-description{
     margin-bottom: 25px;
 }
+/* Some Feature*/
+.feature{
+    gap: 100px;
+}
+#bar{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-card{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.feature-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+
 
 /* Some Facts */
 .fact{
