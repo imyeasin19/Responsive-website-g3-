@@ -140,9 +140,7 @@ main>section{
     font-size: 3rem;
     font-weight: 700;
 }
-.arc-img img{
-    width: 100%;
-}
+
 
 /* Some Facts */
 .fact{
@@ -220,6 +218,9 @@ main>section{
         margin-top: 20px;
         margin-left: 20px;
         justify-items: center;
+    }
+    .arc-img img{
+        width: 100%;
     }
     
 }
