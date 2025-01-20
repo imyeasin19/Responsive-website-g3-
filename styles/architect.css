@@ -129,8 +129,20 @@ main>section{
     margin-bottom: 0px;
 
 }
-
-
+#experience-badge{
+    padding: 40px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -80px;
+    margin-top: -80px;
+}
+#experience-year{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.arc-img img{
+    width: 100%;
+}
 
 /* Some Facts */
 .fact{
@@ -186,7 +198,8 @@ main>section{
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-link, 
-    .teams {
+    .teams,
+    .feature {
         flex-direction: column;
     }
     .team-img, .fact-container, .sponsor-companies{
@@ -203,9 +216,15 @@ main>section{
         gap: 50px;
         justify-items: center;
     }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+        justify-items: center;
+    }
+    
 }
 @media screen and (min-width:576px) and (max-width:992px) {
-    .teams{
+    .teams, .feature{
         flex-direction: column;
     }
     .features{
@@ -217,6 +236,11 @@ main>section{
 
     }
     .our-sponsors, .some-facts{
+        justify-items: center;
+    }
+    #experience-badge{
+        margin-top: 20px;
+        margin-left: 20px;
         justify-items: center;
     }
 }
